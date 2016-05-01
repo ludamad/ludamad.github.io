@@ -64,10 +64,29 @@ var App = React.createClass({
         var button = function (name) { return React.createElement("button", {"onClick": makeIt(name)}, " ", name, " "); };
         return React.createElement("div", null, "You are currenting doing a ", action, " action on-click.", button("To Discard"), button("To Hand"), button("Specific Card to Hand"), button("First with Trait to Hand"));
     },
+    sort: function (cards, cardData) {
+        if (cardData === void 0) { cardData = this.state.cardData; }
+        function cmp(a, b) {
+            a = cardData[a], b = cardData[b];
+            if (!a)
+                return -1;
+            if (!b)
+                return +1;
+            if ((a.Gold || 0) === (b.Gold || 0)) {
+                if (a.name < b.name)
+                    return -1;
+                if (a.name > b.name)
+                    return +1;
+                return 0;
+            }
+            return ((a.Gold || 0) - (b.Gold || 0));
+        }
+        return cards.sort(cmp);
+    },
     parseCards: function (yaml) {
         try {
             var cardData = jsyaml.safeLoad(yaml);
-            for (var _i = 0, _a = Object.keys(cardData).sort(function (a, b) { return (cardData[a].Gold || 0) - (cardData[b].Gold || 0); }); _i < _a.length; _i++) {
+            for (var _i = 0, _a = this.sort(Object.keys(cardData), cardData); _i < _a.length; _i++) {
                 var cardName = _a[_i];
                 cardData[cardName].name = cardName;
                 cardData[cardName].Miracle = cardData[cardName].Miracle || 0;
@@ -102,7 +121,6 @@ var App = React.createClass({
         return changedCards;
     },
     save: function () {
-        var _this = this;
         function save(yaml) {
             if (fs.writeFileSync) {
                 fs.writeFileSync("./cards.yaml", yaml);
@@ -113,7 +131,7 @@ var App = React.createClass({
             }
         }
         var data = {};
-        for (var _i = 0, _a = Object.keys(this.state.cardData).sort(function (a, b) { return (_this.state.cardData[a].Gold || 0) - (_this.state.cardData[b].Gold || 0); }); _i < _a.length; _i++) {
+        for (var _i = 0, _a = this.sort(Object.keys(this.state.cardData)); _i < _a.length; _i++) {
             var key = _a[_i];
             data[key] = JSON.parse(JSON.stringify(this.state.cardData[key]));
             delete data[key].name;
@@ -161,8 +179,7 @@ var App = React.createClass({
         this.forceUpdate();
     },
     getCardSelection: function () {
-        var _this = this;
-        return Object.keys(this.state.cardData).filter(this.matchesSearchTerm).sort(function (a, b) { return (_this.state.cardData[a].Gold || 0) - (_this.state.cardData[b].Gold || 0); });
+        return this.sort(Object.keys(this.state.cardData).filter(this.matchesSearchTerm));
     },
     cardDataToYaml: function (cardData) {
         return jsyaml.safeDump(cardData, { flowLevel: 2 });
@@ -341,8 +358,7 @@ var App = React.createClass({
     renderCommon: function (_a) {
         var _this = this;
         var matchingNames = _a.matchingNames;
-        alert("SORTING");
-        matchingNames.sort(function (a, b) { return (_this.state.cardData[a].Gold || 0) - (_this.state.cardData[b].Gold || 0); });
+        this.sort(matchingNames);
         var i = 1;
         function matches(name) {
             return matchingNames.indexOf(name) >= 0;
@@ -363,7 +379,7 @@ var App = React.createClass({
                 else {
                     _this.state.cards.push(name);
                 }
-                _this.state.cards.sort(function (a, b) { return (_this.state.cardData[a].Gold || 0) - (_this.state.cardData[b].Gold || 0); });
+                _this.sort(_this.state.cards);
                 _this.forceUpdate();
             }
             else if (_this.state.screen === "play") {
