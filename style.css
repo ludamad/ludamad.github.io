@@ -67,7 +67,6 @@ html {
     background-color: #FCFCFC;
     display: inline-block;
     position: absolute;
-    position: absolute;
 }
 .backrowcell {
     width: 154.5px;
@@ -81,4 +80,312 @@ html {
     height: 154.5px;
     background-color: #B3CEE6;
     position: absolute;
+}
+
+.powerwhitecell {
+    width: 154.5px;
+    height: 154.5px;
+    background-color: #E3F2E4;
+    display: inline-block;
+    position: absolute;
+}
+.powerblackcell {
+    width: 154.5px;
+    height: 154.5px;
+    background-color: #4b9666;
+    position: absolute;
+}
+
+.superpowerwhitecell {
+    width: 154.5px;
+    height: 154.5px;
+    background-color: #E4F3E5;
+    display: inline-block;
+    position: absolute;
+}
+.superpowerblackcell {
+    width: 154.5px;
+    height: 154.5px;
+    background-color: #1c5b33;
+    position: absolute;
+}
+
+.playerhandcard {
+}
+.playerhandcard:hover {
+    z-index: 9999;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.cardlord {
+    background-image: url("images/hero-backing.png");
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 0.5mm;
+    width: 63mm;
+    height: 88mm;
+}
+
+
+.cardspell {
+    background-image: url("images/spell.png");
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    background-color: rgb(204, 204, 220);
+    border-radius: 0.5mm;
+    width: 63mm;
+    height: 88mm;
+}
+
+.cardunit {
+    background-image: url("images/equip.png");
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 0.5mm;
+    width: 63mm;
+    height: 88mm;
+}
+
+.typebox {
+    position: absolute;
+    background-color: rgba(0,0,0,0.0);
+    color: black;
+    text-align: right;
+    margin-top: 82.25mm;
+    margin-left: -4mm;
+    width: 100%;
+    /*width: 25.3mm;
+    height: 15mm;*/
+    float:left;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.inlineblock {
+    display: inline-block;
+}
+
+.smallresourcecost {
+    width: 4.45mm;
+    height: 0mm;
+    margin: 0mm 0mm;
+}
+
+.resourcecost {
+    width: 7mm;
+    height: 8mm;
+}
+
+.costbox {
+    opacity: 1.0;
+    position: absolute;
+    /*background-color: rgba(15,15,15,1.0);*/
+    background-color: rgba(0,0,0,0.8);
+    border-style: solid;
+    border-width: 0.5mm;
+    border-color: black;
+    margin: 9mm 53mm;
+    width: 7.5mm;
+    height: 15.75mm;
+}
+
+.statline {
+    height: 6mm;
+}
+
+.statbox {
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    border-style: solid;
+    border-width: 0.5mm;
+    border-color: black;
+    margin-top: 44mm;
+    margin-left: 2.3mm;
+    width: 30mm;
+    height: 18mm;
+    overflow: hidden;
+}
+
+.statimage {
+    float: left;
+    height: 6mm;
+    width: 6mm;
+}
+
+.namefield {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    border-style: solid;
+    border-width: 0.5mm;
+    border-color: black;
+    color: black;
+    background-color: rgba(255,255,255,1.0);
+    margin: 1.0mm 0mm;
+    width: 60.5mm;
+    height: 6mm;
+}
+
+.gold {
+    position: absolute;
+    margin: 0mm 0mm;
+    width: 8mm;
+    height: 8mm;
+}
+
+.mana {
+    position: absolute;
+    margin: 0mm 0mm;
+    width: 8mm;
+    height: 8mm;
+}
+
+.smalltap {
+    position: absolute;
+    margin: -4.9mm -1.0mm;
+    width: 7mm;
+    height: 7mm;
+}
+
+.smallmana {
+    position: absolute;
+    margin: -4.55mm -1.5mm;
+    width: 7mm;
+    height: 7mm;
+}
+
+
+.smallmanacost {
+    position: absolute;
+    text-align: center;
+    width: 10mm;
+    margin: -4.4mm -3mm;
+    text-shadow:
+       1px 1px 0 #000;
+    font-size: 5mm;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+.manacost {
+    position: absolute;
+    text-align: center;
+    width: 12mm;
+    margin: -1.25mm -2.25mm;
+    text-shadow:
+       2px 2px 0 #000;
+    font-size: 8mm;
+    color: rgb(255,255,255);
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+.red {
+    color: rgb(255,255,155);
+}
+
+.avatar {
+    position: absolute;
+    display: block;
+    background-color: black;
+    margin: 8.25mm 0mm;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    border-style: solid;
+    border-width: 0.5mm;
+    border-color: black;
+    width: 60.5mm;
+    height: 55.5mm;
+}
+
+.name {
+    position: absolute; 
+    text-align: center;
+    margin-top: 0.2mm;
+    margin-left: 0mm;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 13pt;
+    font-weight: 500;
+    width: 100%;
+    overflow:hidden;
+    white-space:nowrap;
+    height: 10mm;
+}
+
+.icon {
+    width: 7mm;
+    height: 7mm;
+    vertical-align: text-bottom;
+    margin: 1mm;
+}
+
+.iconcell {
+    padding: 0.5mm;
+    margin-right: 1mm;
+}
+
+.carac {
+    float: right;
+    margin: 3mm;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.text {
+    position: absolute;
+    border-style: solid;
+    margin-top: 65.2mm;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    border-width: 0.5mm;
+    border-color: black;
+    background-color: rgba(255,255,255,1.0);
+    width: 59.5mm;
+    padding: 0.5mm;
+    height: 20.65mm;
+    float: left;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 12.5pt;    
 }

@@ -1,0 +1,437 @@
+Aggro Helmet:
+  Gold: 0
+  Image: 'https://i.pinimg.com/736x/91/52/a3/9152a3d11c8e7e8cec1404cb5cac18d6--fantasy-images-fantasy-artwork.jpg'
+  Description: '<b>{tap} a Warrior to equip.</b></br>Unit has Charge <i>(free attack after moving)</i></br><s3>Murderous madness may manifest.</s3>'
+  Traits: [Equip]
+  Miracle: 2
+Archer of Valor:
+  Gold: 6
+  Health: 1
+  Movement: 1
+  Attack: 'Reflex: Draw a card.'
+  Range: 2
+  Image: 'https://mayhemandmuse.com/wp-content/uploads/2012/03/po-wen-art-anime-manga-woman-jester-archer-medieval-fantasy-character-design.jpg'
+  Traits: [Charmer Warrior]
+  Description: '<b>{tap} and pay</b> {2MP}<b>:</b> Refresh a nearby Cat or Warrior.</br><s3>A strong heart is needed in tough times.</s3>'
+  Miracle: 0
+Armoured Mage:
+  Image: images/mtg/14.jpg
+  Description:
+      - "{Defender}"
+      - "Immune to damage from spells.</br><s3>Gifted as he is stubborn.</s3>"
+  Traits: [Mage Warrior]
+  Gold: 2
+  Range: 1
+  Health: 1
+  Movement: 2
+  Miracle: 0
+Bubbling Cauldron:
+  Image: 'https://darkestdungeon.gamepedia.com/media/darkestdungeon.gamepedia.com/thumb/3/37/Cauldron.png/200px-Cauldron.png?version=b761457d33835eb118ff5d501663b8b2'
+  Description: 
+      - '<small><b>{tap} a Charmer to cast.</b> <small><small> ... Bubble bubble...</small></small>'
+      - '• Swap a Cat and a Charmer.'
+      - '• Or, equip to a Cat, giving it +1HP.'
+      - '• Or, give a Cat Charge this turn.'
+      - '</small>'
+  Traits: [Spell]
+  Gold: 2
+  Miracle: 2
+Stranded:
+  Image: 'https://i.pinimg.com/originals/10/34/db/1034db0af8e3c7feae03f20e40ac9192.jpg'
+  Description: An enemy without another enemy near it becomes permanently exhausted. </br><s3>Take care not wander too far from your pack.</s3>
+  Traits: [Spell]
+  Gold: 0
+  Miracle: 6
+Templebound Protector:
+  Gold: 4
+  Health: 2
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Image: 'https://i.pinimg.com/736x/05/04/b6/0504b6bafd6ccfa4547d0c6cada71a66--fantasy-inspiration-character-inspiration.jpg'
+  Description: 
+      - '{Defender}'
+      - 'Dies near enemy temple.'
+      - '<s3>Have life - but do not wander astray.</s3>'
+  Traits: [Animation]
+  Miracle: 0
+Divine Nudge:
+  Gold: 2
+  Image: images/mtg/11.jpg
+  Description: 
+      - "<b>{tap} a {5MP} or greater ally to play.</b>"
+      - "Move a unit 1 square, except if it would win the game."
+      - "<s3>Pray, though the gods provide only a path.</s3>"
+  Traits: [Spell]
+  Miracle: 2
+Golden Age of Combat:
+  Gold: 0
+  Image: "https://i.pinimg.com/736x/be/3d/fb/be3dfb1d70453dba72a549c7a1553d37--warhammer-fantasy-fantasy-rpg.jpg"
+  Description: 
+      - Unexhaust all Warriors.
+      - ""
+      - ""
+      - <s3>We only died much after the war.</s3>
+  Traits: [Spell]
+  Miracle: 4
+  Keywords: [WDeck]
+Woken Fire Tornado:
+  Image: images/mtg/5.jpg
+  Description:
+      - '{tap:} Move nearby unit 1 square.'
+      - ""
+      - "<s3>Little good goes through a fire tornado's thoughts.</s3>"
+  Traits: [Animation]
+  Gold: 6
+  Range: 1
+  Health: 2
+  Movement: 4
+  Miracle: 3
+Flame Swordsman:
+  Image: images/mtg/45.jpg
+  Description: 
+      - '{Defender}'
+      - '{Evasive}.' 
+  Traits: [Warrior]
+  Gold: 2
+  Range: 1
+  Health: 1
+  Movement: 2
+  Miracle: 0
+Flying Carpet:
+  Gold: 2
+  Image: images/riches.jpg
+  Description: '<b>{tap} 3 allies to play.</b></br><b>{tap} a Warrior to equip.</b>'
+  Traits: [Spell]
+  Miracle: 2
+Fortune:
+  Gold: 2
+  Image: images/riches.jpg
+  Description: "{tap} 3 Warriors. Move an exhausted ally 1 square."
+  Traits: [Spell]
+  Miracle: 2
+Gallanthor the Power Archer:
+  Gold: 4
+  Health: 2
+  Attack: 2
+  Movement: 2
+  Image: 'https://s-media-cache-ak0.pinimg.com/236x/3d/c8/9e/3dc89ebb2deb8b896e2b6083db5ecc3c.jpg'
+  Range: 2
+  Description: Charge.
+  Traits: [Lord Warrior]
+  Miracle: 8
+Gallanthor the Self Righteous:
+  Gold: 10
+  Health: 3
+  Movement: 5
+  Attack: ' '
+  Range: 1
+  Image: 'http://static.giantbomb.com/uploads/scale_small/1/17172/1629526-black_knight_by_trejoeeee.jpg'
+  Description: "When you play a Warrior, refresh it."
+  Traits: [Lord Warrior]
+  Miracle: 6
+Gallanthor the Wolfspirit:
+  Health: 2
+  Movement: 3
+  Attack: 2
+  Range: 1
+  Image: 'https://s-media-cache-ak0.pinimg.com/736x/0f/f7/4c/0ff74c65445f5c27f72e5cd2da8b73ff.jpg'
+  Description: '{tap:} Teleport adjacent to an ally.'
+  Traits: [Lord Beast Warrior]
+  Gold: 7
+  Miracle: 4
+"Gallanthor's Devoted":
+  Image: images/mtg/36.jpg
+  Description: '{tap:} Sacrifice, refresh all nearby ally Warriors.'
+  Traits: [Warrior]
+  Gold: 2
+  Range: 1
+  Health: 1
+  Movement: 2
+  Miracle: 0
+"Gallanthor's Spite":
+  Gold: 2
+  Image: 'https://i.pinimg.com/originals/97/79/d2/9779d2548db4cbccf5edf7cb8194e183.jpg'
+  Description: 
+      - 'For this turn, enemies that attacked last turn die to any damage from Warriors.'
+      - "<s3>It only matters who ends it.</s3>"
+  Traits: [Spell]
+  Miracle: 4
+Gravewolf:
+  Health: 1
+  Movement: 3
+  Attack: 2
+  Range: 1
+  Image: images/wolf.png
+  Description: 
+      - '{Defender}.'
+      - 'On death, destroys a nearby enemy.'
+  Traits: [Wolf]
+  Gold: 4
+  Miracle: 1
+Deep Sleep:
+  Image: 'https://i.pinimg.com/736x/74/99/0d/74990de08957f47c11bfddade7189ce6--artwork-ideas-pop-surrealism.jpg'
+  Description: 
+      - "An enemy becomes exhausted and its next refresh is skipped."
+      - ""
+      - "<s3>False comforts only need good luck.</s3>"
+  Traits: [Spell]
+  Gold: 0
+  Miracle: 2
+Obedient Cultist:
+  Gold: 2
+  Health: 1
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNaVrAuwpKrUlKQ0hsmPmdLCpGNFcgZ0X97fRfk1ZAONqorjbnLg'
+  Description: 'On death, draw a card.'
+  Traits: [Cultist Warrior]
+  Miracle: 0
+Pawn:
+  Gold: 0
+  Health: 1
+  Movement: 1
+  Attack: ' '
+  Range: 0
+  Image: 'https://s-media-cache-ak0.pinimg.com/originals/70/c1/38/70c138126fb5a4169507bfeab189e566.jpg'
+  Description:
+      - '<b>{tap} near center:</b>, Gain {1MP}.'
+      - '<b>{tap} on center:</b> Gain {2MP}.'
+  Traits: [Pawn]
+  Miracle: 0
+Rare Boots:
+  Gold: 0
+  Image: 'https://magic.wizards.com/sites/mtg/files/image_legacy_migration/mtg/images/daily/arcana/284_ch5xe0o96d.jpg'
+  Description: '<b>{tap} a Warrior to equip.</b></br>Unit has +3 movement.</i>.'
+  Traits: [Equip]
+  Miracle: 2
+Reckless Barbarian:
+  Gold: 0
+  Health: 1
+  Movement: 4
+  Attack: ' '
+  Range: 1
+  Image: 'https://s-media-cache-ak0.pinimg.com/736x/56/3e/ec/563eec6c09d35cdc9cb5b60f623e3a03.jpg'
+  Description: 
+      - '{Charge}.' 
+      - Destroyed end of turn.
+  Traits: [Warrior]
+  Miracle: 0
+Salumite War Priest:
+  Miracle: 6
+  Gold: 10
+  Health: 3
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Description: '{tap}: Nearby ally Warriors have charge this turn.'
+  Image: 'http://uploads4.yugioh.com/card_images/5445/detail/Illusion_Ice_Sculpture.jpg?1440617804'
+  Traits: [Warrior, Priest]
+Salumite Witch:
+  Miracle: 0
+  Gold: 5
+  Health: 2
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Image: 'http://www.chinasalt.com.cn/UserFiles/Image/mermaid%281%29.jpg'
+  Traits: [Salumite, Mage]
+  Description: 'On death: If you control a Priest, opponent discards a card.'
+Santafaya the Counterpriest:
+  Miracle: 5
+  Gold: 4
+  Health: 2
+  Movement: 2
+  Attack: ' '
+  Range: 2
+  Image: 'http://vignette2.wikia.nocookie.net/typemoon/images/5/5e/Lancer_Ryuji_Higurashi_cut_in2.png/revision/latest?cb=20141016182252'
+  Description: "Can't attack. Enemies in range can't refresh or charge."
+  Traits: [Godkin, Priest]
+Shuffle:
+  Miracle: 2
+  Gold: 0
+  Image: 'http://vignette3.wikia.nocookie.net/yugiohenespanol/images/a/a8/Foto_cambio.jpg/revision/latest?cb=20120601071344&path-prefix=es'
+  Description: Swap the location of two target allies. Draw a card. End your turn.
+  Traits: [Spell]
+Impressionable Swordsman:
+  Miracle: 0
+  Gold: 2
+  Health: 1
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Image: 'https://s-media-cache-ak0.pinimg.com/236x/f9/9c/a5/f99ca538d36f6375c55d59536fdc5d2f.jpg'
+  Description: Has +2 movement if a Warrior is nearby.
+  Traits: [Warrior]
+Slango the Shooter:
+  Miracle: 6
+  Gold: 4
+  Health: 2
+  Movement: 2
+  Attack: ' '
+  Range: 3
+  Image: 'https://unobtainium13.files.wordpress.com/2015/06/archer.png'
+  Traits: [Warrior]
+  Description: ' '
+Sneaky Mouser:
+  Miracle: 0
+  Gold: 1
+  Health: 2
+  Movement: 3
+  Attack: ' '
+  Range: 1
+  Image: 'http://img10.deviantart.net/c755/i/2006/275/c/b/michael_mouse_by_the_mirrorball_man.jpg'
+  Traits: [Warrior]
+  Description: ' '
+Solidarity:
+  Gold: 0
+  Image: 'http://vignette4.wikia.nocookie.net/yugiohenespanol/images/1/12/Foto_m%C3%A1scara_de_restricci%C3%B3n.jpg/revision/latest?cb=20130201002149&path-prefix=es'
+  Description: '<b>{tap} a Warrior.</b></br>Deal 1 damage to an enemy near an ally.'
+  Traits: [Spell]
+  Miracle: 2
+Soulbow:
+  Miracle: 0
+  Gold: 2
+  Description: '<b>{tap} a Mage to equip</b></br>Gain +2 range when attacking forward.'
+  Image: 'http://img3.wikia.nocookie.net/__cb20130127002436/civilization/images/e/eb/Great_prophet_%28Civ5%29.png'
+  Traits: []
+Spiteful Penance:
+  Miracle: 4
+  Gold: 1
+  Image: 'https://cdn0.vox-cdn.com/thumbor/8v6MoNAV1N1pGN4GsaMv-9mOBBQ=/0x87:2048x1452/1280x854/cdn0.vox-cdn.com/uploads/chorus_image/image/46021482/16933271252_0c16113d35_k.0.0.jpg'
+  Description: '<b>Center {tap} a Priest.</b></br>Deal 1 damage to a unit. Draw a card.'
+  Traits: [Spell]
+Steel Mouser:
+  Miracle: 0
+  Gold: 5
+  Health: 2
+  Movement: 3
+  Attack: ' '
+  Range: 1
+  Image: 'http://img10.deviantart.net/c755/i/2006/275/c/b/michael_mouse_by_the_mirrorball_man.jpg'
+  Traits: [Warrior]
+  Description: ' '
+Destined to Fight:
+  Miracle: 3
+  Gold: 0
+  Traits: [Equip]
+  Image: 'http://coolvibe.com/wp-content/uploads/2011/08/Light.jpg'
+  Description: 
+      - '<b>{tap} an ally to equip.</b> '
+      - 'Unit is considerd a Warrior and has {Twinstrike}.'
+Surefire Charge:
+  Gold: 0
+  Image: 'http://uploads4.yugioh.com/card_images/2808/detail/4515.jpg?1385127019'
+  Description: '<b>{tap} a Warrior to equip.</b></br>Unit has Charge <i><small>(free attack after moving)</small></i>.'
+  Traits: [Spell]
+  Miracle: 2
+Terrorizer:
+  Image: images/mtg/277.jpg
+  Description: '<b>{tap}:</b> Exhaust a nearby enemy. Negate its next refresh.'
+  Traits: [Undead]
+  Gold: 2
+  Range: 1
+  Health: 1
+  Movement: 2
+  Miracle: 0
+Theokin Epic Lancer:
+  Miracle: 8
+  Gold: 4
+  Health: 1
+  Movement: 2
+  Attack: ' '
+  Range: 3
+  Description: 'On death: Draw a card.'
+  Image: 'http://vignette2.wikia.nocookie.net/typemoon/images/5/5e/Lancer_Ryuji_Higurashi_cut_in2.png/revision/latest?cb=20141016182252'
+  Traits: [Lord Warrior]
+Theokin Infantry:
+  Miracle: 0
+  Gold: 1
+  Health: 1
+  Movement: 2
+  Attack: ' '
+  Range: 1
+  Image: 'https://s-media-cache-ak0.pinimg.com/236x/f9/9c/a5/f99ca538d36f6375c55d59536fdc5d2f.jpg'
+  Traits: [Warrior]
+  Description: ' '
+Contractual Firebeast:
+  Miracle: 0
+  Gold: 3
+  Health: 1
+  Movement: 1
+  Attack: ' '
+  Range: 2
+  Image: 'https://wiki.guildwars2.com/images/thumb/8/81/Fire_elemental_01_concept_art_%28Fire_Elemental%29.jpg/250px-Fire_elemental_01_concept_art_%28Fire_Elemental%29.jpg'
+  Traits: [Animation]
+  Description: 
+      - "{Manabound}"
+      - '<b>Pay {2MP}:</b> Refresh this unit.'
+      - '<s3>She works to rule. Just imagine.</s3>'
+Theokin Whistler:
+  Miracle: 0
+  Gold: 2
+  Health: 1
+  Movement: 1
+  Attack: ' '
+  Range: 1
+  Image: 'https://s-media-cache-ak0.pinimg.com/236x/4a/b1/6d/4ab16de40e1e099d28d0c82201a5fa46.jpg'
+  Description: "{Self-defence 2}."
+  Traits: [Mage]
+Town Hero:
+  Health: 1
+  Movement: 2
+  Attack: 2
+  Range: 1
+  Image: 'http://pre11.deviantart.net/76c9/th/pre/f/2013/005/6/1/fantasy_warrior_by_demi_urgic-d5qldvj.jpg'
+  Description: 'Defender. On death during attack, attacker dies too.'
+  Traits: [Warrior]
+  Gold: 3
+  Miracle: 0
+Unleash the Demon:
+  Miracle: 6
+  Gold: 0
+  Description: "<b>{tap} a Necromancer.</b><br/>Summon a 'Demonkin Barbarian' from your hand, deck or graveyard."
+  Image: 'http://uploads2.yugioh.com/card_images/2095/detail/2795.jpg?1385102993'
+  Traits: [Spell]
+Ultimate Power:
+  Miracle: 18
+  Gold: 7
+  Image: 'https://www.walldevil.com/wallpapers/w01/505120-antichrist-apocalypse-artwork-cthulhu-demons-fantasy-art.jpg'
+  Description: 
+      - 'If you control a Mage and a Priest, destroy up to 3 target units.'
+      - '<s3>Always comes at a steep price.</s3>'
+  Traits: [Spell]
+Void Glurper:
+  Gold: 8
+  Miracle: 4
+  Health: 3
+  Movement: 3
+  Attack: ' '
+  Range: 1
+  Image: images/VoidGlurper3.png
+  Description: "All units have '{tap:} Gain 1MP'."
+  Traits: [Demon]
+Weak of Faith:
+  Miracle: 5
+  Gold: 2
+  Image: 'http://3.bp.blogspot.com/-xBxtZMwKfWs/Uy0aZes432I/AAAAAAAAAuE/-G7rbS1s5ck/s1600/Drown+in+Sorro.jpg'
+  Description: '<b>{tap} a Mage.</b><br/> Target a unit that was summoned last turn with MP cost 1 or less. Destroy it.'
+  Traits: [Spell]
+Werewolfist:
+  Image: 'https://i.pinimg.com/736x/7e/bf/8a/7ebf8abbd18515eef18b9bd0536ac95f--werewolf-art-fantasy-creatures.jpg'
+  Description: 
+      - '{tap:} Unexhaust a nearby ally Wolf or Warrior.'
+      - "<s3>Sometimes the adrenaline just eeks out.</s3>"
+  Traits: [Wolf Warrior]
+  Gold: 4
+  Range: 1
+  Health: 1
+  Movement: 2
+  Miracle: 0
+Worthy Sacrifice:
+  Miracle: 8
+  Gold: 3
+  Image: 'http://3.bp.blogspot.com/-xBxtZMwKfWs/Uy0aZes432I/AAAAAAAAAuE/-G7rbS1s5ck/s1600/Drown+in+Sorro.jpg'
+  Traits: [Spell]
+  Description: '<b>{tap} a Mage.</b> Opponent chooses between discarding 2 cards, or destroying 2 allies.'
