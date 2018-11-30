@@ -410,6 +410,12 @@ html {
     height: 52mm;
 }
 
+.victory-points {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 45pt;
+    font-weight: 500;
+}
+
 .name {
     position: absolute;
     text-align: center;

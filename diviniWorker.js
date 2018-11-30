@@ -6,9 +6,9 @@ let initialMark;
 
 
 class Engine {
-    startGame(gameData) {
+    startGame(gameFile) {
         AI.resetStateFromHistoryMark(initialMark);
-        AI.initGame(gameData);
+        AI.initGameFromYamlFile(gameFile);
     }
     getStateHistoryMark() {
         return AI.getStateHistoryMark();
@@ -18,7 +18,6 @@ class Engine {
     }
     initGameData(){
         AI.initGameData();
-        AI.initGame(JSON.stringify({decks: [], squareData: []}));
         initialMark = AI.getStateHistoryMark();
     }
     getStateJson(){
