@@ -141,7 +141,53 @@ html {
     width: 63mm;
     height: 88mm;
 }
+#handcardcontainer {
+    /* fixed layout element wrapper */
+    /* width: 200px;
+    height: 2em; */
+    /* needs height, since it contains only `position:absolute` elements*/
+    position: absolute;
+    /* border: 1px solid green; */
+    -webkit-transition: top 1s; /* Safari */
+    transition: "all 1s";
+    top: 0px;
+    z-index: 0;
+}
 
+
+#handcardcontainer:hover {
+    z-index: 400;
+}
+
+#handcardcontainer:hover #handcard {
+/* now based on the wrapper instead of the */
+transform: scale(1.5,1.5);
+top: -100px;
+/* blipper */
+}
+
+/* .card {
+    transition: "all 5s";
+    z-index: 0;
+}
+.card:hover {
+    transform: translate(0px, -250px);
+    z-index: 4000;
+}
+.card:hover:after {
+    content: '';
+    left: 0;
+    top: -50px;
+    height: 63mm;
+    width: 100%;
+    border: 3px solid blue;
+    box-sizing: border-box;
+  } */
+body {
+    overflow: scroll;
+    /* height: 1024;
+    width: 768; */
+}
 .cardspell-back {
     position: absolute;
     background: rgb(204, 204, 220) url("images/spell.png");
@@ -181,7 +227,6 @@ html {
     border-radius: 1.8897637795px;
     width: 63mm;
     height: 332.5984252px;
-    z-index: 0;
 }
 .cardunit:hover {
     cursor: pointer;
@@ -471,6 +516,14 @@ html {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 11pt;
     z-index: 10;
+}
+
+.bigonhover {
+    transition: "transform 2s";
+}
+
+.bigonhover:hover {
+    transform: scale(1.2, 1.2);
 }
 
 .descriptiontext {

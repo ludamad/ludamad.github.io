@@ -6,12 +6,15 @@ let initialMark;
 
 
 class Engine {
-    startGame(gameFile) {
+    startGame(gameFile, deck) {
         AI.resetStateFromHistoryMark(initialMark);
-        AI.initGameFromYamlFile(gameFile);
+        AI.initGameWithDeck(gameFile, deck);
     }
     getStateHistoryMark() {
         return AI.getStateHistoryMark();
+    }
+    reset() {
+        return this.resetStateFromHistoryMark(initialMark);
     }
     resetStateFromHistoryMark(mark) {
         return AI.resetStateFromHistoryMark(mark);
