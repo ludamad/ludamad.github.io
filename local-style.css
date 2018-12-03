@@ -200,6 +200,18 @@ body {
     z-index: -1;
 }
 
+.cardlord-back {
+    position: absolute;
+    background: rgb(204, 204, 220) url("images/hero.png");
+    user-select: none;
+    backface-visibility: hidden;
+    border: 0.3mm solid black;
+    border-radius: 1.8897637795px;
+    width: 63mm;
+    height: 88mm;
+    z-index: -1;
+}
+
 .cardspell:hover {
     cursor: pointer;
 }
@@ -455,6 +467,20 @@ body {
     height: 52mm;
 }
 
+.avatar-lord {
+    position: absolute;
+    display: block;
+    background-color: black;
+    margin: 9mm 31.5mm;
+    transform: translate(-50%, 0%);
+    border-style: solid;
+    border-width: 0.3mm;
+    border-radius: 1mm;
+    border-color: black;
+    width: 60mm;
+    height: 62mm;
+}
+
 .victory-points {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 45pt;
@@ -540,6 +566,25 @@ body {
     padding: 1mm;
     width: 58.5mm;
     height: 22.2mm;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 15pt;
+    z-index: 10;
+}
+
+.descriptiontext-lord {
+    user-select: none;
+    -moz-user-select: none; /* Firefox */
+    position: absolute; 
+    line-height: 100%;
+    margin: 87mm 31.5mm;
+    transform: translate(-50%, -100%);
+    border-radius: 1mm;
+    border: 0.3mm solid black;
+    text-align: left;
+    background-color: rgba(255,255,255,1.0);
+    padding: 1mm;
+    width: 58.5mm;
+    height: 12.2mm;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 15pt;
     z-index: 10;
