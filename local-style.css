@@ -157,6 +157,7 @@ html {
 
 #handcardcontainer:hover {
     z-index: 400;
+    transform: scale(1.5,1.5);
 }
 
 #handcardcontainer:hover #handcard {
