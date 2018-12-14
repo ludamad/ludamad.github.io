@@ -1,0 +1,38 @@
+players:
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: []
+    actionPruneLevel: 0
+    targetVictoryPoints: 20
+    qSearchDepth: 2
+  - type: alphabeta
+    depth: 1
+    lordCard: Clara of Cats
+    deck:
+      - Ginger Cat
+      - Ginger Cat
+      - Ginger Cat
+      - Wing Cat
+      - Wing Cat
+      - Wing Cat
+      - Kitty Squire
+      - Kitty Squire
+      - Kitty Squire
+      - Kitty Squire
+#      - Magic Cat
+#      - Magic Cat
+      - Support Cat
+      - Support Cat
+      - Support Cat
+    actionPruneLevel: 0
+    targetVictoryPoints: 20
+    qSearchDepth: 2
+board:
+  - ["", "",     "",     "", "", ""]
+  - ["", "",     "",     "", "", ""]
+  - ["", "", "Core", "Core", "", ""]
+  - ["", "", "Core", "Core", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+openInformation: false

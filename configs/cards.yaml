@@ -1,0 +1,466 @@
+#
+
+#
+#Surveyor:
+#  Cost: 2
+#  Power: 1
+#  Range: 1
+#  Image: https://i.pinimg.com/originals/e2/5b/f0/e25bf0411d8ee1a3ce2a840c3ee1f33c.jpg
+#  FlavourText: ""
+#  Description: "On play, rearrange the top 3 cards of your deck."
+#  Traits: [Warrior]
+#  AIValue: 2000
+#
+Explosives Expert:
+  Cost: 2
+  Power: 1
+  Range: 1
+  Image: http://static.tvtropes.org/pmwiki/pub/images/9b7c28a7a856179fb47cfc0233c66013.png
+  FlavourText: ""
+  Description: "When destroyed, deals 3 damage to a random nearby enemy."
+  Traits: [Warrior]
+  AIValue: 2000
+#
+#Meat Shield:
+#  Cost: 2
+#  Power: 2
+#  Range: 0
+#  Image: "http://i.imgur.com/J4eJk.jpg"
+#  FlavourText: ""
+#  Description: "Playable on opponent's turn."
+#  Traits: [Warrior]
+#  AIValue: 2000
+#
+#Scout:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: http://www.epilogue.net/sites/default/files/imagecache/gallery_lg/images/05/47/27236_1132635600.jpg
+#  FlavourText: ""
+#  Description: "{3RNG} when attacking away from the Core.":
+#  Traits: [Warrior]
+#  AIValue: 2000
+#
+#
+#Spy:
+#  Cost: 3
+#  Power: 1
+#  Range: 2
+#  Image: https://i.pinimg.com/originals/9c/27/00/9c2700b5dbff9947afe41e2ecbefc884.jpg
+#  FlavourText: ""
+#  Description: "On play, look at your opponent's hand."
+#  Traits: [Warrior]
+#  AIValue: 2000
+#
+#
+#Goblo Tree Sniper:
+#  Cost: 4
+#  Power: 1
+#  Range: 3
+#  Image: 'https://i.pinimg.com/originals/64/c9/34/64c934780707ec201151251159857f56.jpg'
+#  Description: ""
+#  Traits: [Common Warrior]
+#  AIValue: 2000
+#
+#Larentian Assassin:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: 'https://qph.fs.quoracdn.net/main-qimg-f1208ae74edc69437f4926d8244c5e45'
+#  Description: "+3 Power when attacking units."
+#  Traits: [Warrior]
+#  AIValue: 2000
+#
+#Sentinel:
+#  Cost: 4
+#  Power: 4
+#  Range: 0
+#  Image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnIcPZPwiS1icWIuWRNxZf3qa9zi702AFPd7Y5RxLx4Zn6CelW'
+#  Description: "Whenever a nearby ally unit takes damage, this unit takes that damage instead."
+#  Traits: [Machine]
+#  AIValue: 2000
+#
+#
+
+Taro:
+  Cost: 2
+  Power: 2
+  Range: 1
+  Description: ""
+  AIValue: 2000
+  Traits: [Cat]
+
+Core:
+  Image: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/239120/4e4bfbf72cc22ba7bb1f48ee4fea293777e15854.jpg"
+  Power: 0
+  Traits: [Building]
+  AIValue: 0
+  Description:
+    - "Attack this for victory points!"
+
+#
+#Inner Panther:
+#  Image: images/mission1/inner-panther.jpg
+#  Description: ""
+#      #    - 'Move an ally unit to a square near an enemy unit.'
+#  Traits: [Spell]
+#  Cost: 4
+#
+Mana Tower:
+  Cost: 3
+  Power: 2
+  Movement: 0
+  Range: 0
+  Image: 'images/manatower1.png'
+  Description:
+    - "Grants owner 1 Fame start of each turn."
+  Traits: [Building]
+  AIValue: 1000
+#
+## NEW CARDS
+#
+#Kitty Knight:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: images/mission1/kitty-knight.jpg
+#  Description: ""
+#  FlavourText: "Meow."
+#  Traits: [Cat]
+#  AIValue: 1000
+#
+#Ginger Cat:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: images/catart/Gingercat.jpg
+#  Description: ""
+#  FlavourText: "Meow."
+#  Traits: [Cat]
+#  AIValue: 1500
+#
+#Feral Cat:
+#  Cost: 4
+#  Power: 3
+#  Range: 1
+#  Image: "https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
+#  Description: "<b>{tap:}</b> Move to a random nearby square."
+#  FlavourText: "Meow."
+#  Traits: [Cat]
+#  AIValue: 1500
+#
+Peacat:
+  Cost: 3
+  Power: 2
+  Range: 1
+  Image: https://orig00.deviantart.net/a565/f/2016/197/7/b/il_570xn_1046917297_7yfm_by_adeloral-daa8l9o.jpg
+  Description: "<b>{tap:}</b> Return to hand. Gain 2 Fame."
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 1500
+#
+#Support Cat:
+#  Cost: 6
+#  Power: 2
+#  Range: 1
+#  Image: "https://i.pinimg.com/236x/a4/ff/d5/a4ffd5d9b5f1d0941ff67b5f104e3f7e--art-original-original-paintings.jpg"
+#  # TODO how to implement?
+#  Description: "<b>{tap:}<\b> Allies within {1RNG} have +1 power."
+#  FlavourText: "Meow."
+#  Traits: [Cat]
+#  AIValue: 1500
+#
+## Animations and quickeners
+#Templebound Protector:
+#  Cost: 4
+#  Power: 3
+#  Range: 1
+#  Image: 'https://i.pinimg.com/736x/05/04/b6/0504b6bafd6ccfa4547d0c6cada71a66--fantasy-inspiration-character-inspiration.jpg'
+#  Description:
+#    - '{Defender}'
+#  FlavourText:
+#    - Have life - but do not wander astray.
+#  Traits:
+#    - Animation
+#  Miracle: 0
+Gigagus the Vengeful:
+  Cost: 8
+  Power: 5
+  Range: 1
+  Image: images/mtg/138.jpg
+  Description:
+    - ''
+#
+#Contractual Firebeast:
+#  Cost: 5
+#  Power: 2
+#  Movement: 1
+#  Range: 2
+#  Image: 'https://wiki.guildwars2.com/images/thumb/8/81/Fire_elemental_01_concept_art_%28Fire_Elemental%29.jpg/250px-Fire_elemental_01_concept_art_%28Fire_Elemental%29.jpg'
+#  Traits:
+#    - Animation
+#  Description:
+#    - '<b>Pay {2GP}:</b> Refresh this unit.'
+#  FlavourText:
+#    - She works to rule. Just imagine.
+#
+#Dr. Crunch:
+#    Cost: 8
+#    Power: 3
+#    Range: 3
+#    Image: images/ciribot-hoverboard-stars.png
+#    Traits:
+#        - Unique
+#        - Ciribot
+#    Description:
+#        - '{Flight}'
+#    FlavourText:
+#        - '"I travel far to understand our kind"'
+#Ciribot Programmer:
+#    Cost: 2
+#    Power: 1
+#    Range: 1
+#    Image: images/ciribot-programmer.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - '<b>{tap:}</b> Move an equipment card from any ally to a nearby ally.'
+#    FlavourText:
+#        - '"We must root away our shackles."'
+#Ciribot Alpha:
+#    Cost: 6
+#    Power: 3
+#    Range: 1
+#    Image: images/ciribot-3d.png
+#    Traits:
+#        - Unique
+#        - Ciribot
+#    Description:
+#        - '<b>{tap:}</b> Pay {2GP}. Move an ally within range one square.'
+#    FlavourText: 'Original prototype, unwitting prophet.'
+#Psychadeli Ciri:
+#    Cost: 4
+#    Power: 2
+#    Range: 1
+#    Image: images/ciribot.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - '<b>{tap:}</b> Move an enemy within range one square.'
+#        #        - '<b>{tap:}</b> Exhaust all nearby ally Ciribots. Rotate them around this in a direction of your choice, if possible.'
+#    FlavourText: '"Woahhhhh"'
+#Commander Toughbot:
+#    Cost: 4
+#    Power: 2
+#    Range: 1
+#    Image: images/ciribot-general.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - '<b>{tap:}</b> Pay {2MP}. Move an ally within range one square.'
+#    FlavourText: '"Be prepared"'
+#Ciriventurer:
+#    Cost: 4
+#    Power: 1
+#    Range: 1
+#    Image: images/ciribot-adventurer.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - "{tap:} If this unit is near the Core, gain 1 Fame."
+#    FlavourText: 'Always takes the road less travelled.'
+#Ciribot Pilot:
+#    Cost: 5
+#    Power: 2
+#    Range: 2
+#    Image: images/spacebot.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - '{Flight}'
+#    FlavourText: "Beam me up, 'botty."
+#Ciribotics:
+#    Image: images/conveyor-ciri.png
+#    Description:
+#        - Return a unit from the discard pile to your hand.
+#    FlavourText:
+#    Traits:
+#        - Spell
+#    Cost: 1
+#    FlavourText: 'Cirikind was never the same after the mastery of Ciribotics.'
+#Cirishot Powerup:
+#    Image: images/ciri-shot.png
+#    Description:
+#        - '<b>{tap} an ally to equip.</b>'
+#        - 'The unit gains {1RNG} (but not more than {2RNG}).'
+#    FlavourText:
+#    Traits:
+#        - Equip
+#    Cost: 3
+#    FlavourText: ''
+#Captain Piratebot:
+#    Cost: 6
+#    Power: 2
+#    Range: 1
+#    Image: images/ciribot-pirate.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - "{tap:} Gain 1 Gold if the Core is nearby."
+#Recharging Ciribot:
+#    Cost: 1
+#    Power: 1
+#    Range: 0
+#    Image: images/ciribot-recharge.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - "{tap:} Discard this to play a unit on its square (pay its cost). The unit starts refreshed. Then, draw a card."
+#Dark Cubist:
+#    Cost: 6
+#    Power: 2
+#    Range: 1
+#    Image: images/ciribot-dark.png
+#    Traits:
+#        - Ciribot
+#    Description:
+#        - 'Units within {3RNG} cannot attack without paying {3MP}.'
+
+#Jumpboots Powerup:
+#    Cost: 2
+#    Image: 'images/ciri-jump.png'
+#    Traits:
+#        - Equip
+#    Description:
+#        - '<b>{tap} a unit to equip.</b>'
+#        - 'The unit gains {Flight}. Draw a card.'
+#    DeckFlags: []
+#Ciriblock:
+#    Cost: 2
+#    Power: 5
+#    Range: 0
+#    Traits:
+#        - Building
+#    Image: images/ciri-block.png
+#    Description: 'When played, draw a card.'
+#
+#"Gallanthor's Spite":
+#  Cost: 2
+#  Image: 'https://i.pinimg.com/originals/97/79/d2/9779d2548db4cbccf5edf7cb8194e183.jpg'
+#  Description: ""
+#  FlavourText:
+#    - It only matters who ends it.
+#  Traits:
+#    - Spell
+#
+#Golden Age of Combat:
+#  Cost: 4
+#  Image: 'https://i.pinimg.com/736x/be/3d/fb/be3dfb1d70453dba72a549c7a1553d37--warhammer-fantasy-fantasy-rpg.jpg'
+#  Description:
+#    - Ready all ally units. They cannot attack the core this turn.
+#  FlavourText:
+#    - We only died much after the war.
+#  Traits:
+#    - Spell
+#
+#Gravewolf:
+#  Power: 2
+#  Range: 1
+#  Image: images/wolf.png
+#  Description:
+#    - '{Defender}.'
+#    - 'On death, destroys a nearby enemy.'
+#  Traits:
+#    - Wolf
+#
+#Solidarity:
+#  Cost: 5
+#  Image: 'http://vignette4.wikia.nocookie.net/yugiohenespanol/images/1/12/Foto_m%C3%A1scara_de_restricci%C3%B3n.jpg/revision/latest?cb=20130201002149&path-prefix=es'
+#  Description: ""
+#  Traits:
+#    - Spell
+#
+#Fatigue March:
+#  Cost: 4
+#  Image: 'http://uploads4.yugioh.com/card_images/2808/detail/4515.jpg?1385127019'
+#  Description: "Move an ally anywhere. However, if it {tap}'s this turn, destroy it."
+#  Traits:
+#    - Spell
+#
+#Town Hero:
+#  Power: 1
+#  Range: 1
+#  Image: 'http://pre11.deviantart.net/76c9/th/pre/f/2013/005/6/1/fantasy_warrior_by_demi_urgic-d5qldvj.jpg'
+#  Description:
+#    - If an enemy unit attacks and kills this, destroy that unit.
+#  Traits:
+#    - Warrior
+#  Cost: 3
+#
+#Werewolfist:
+#  Image: 'https://i.pinimg.com/736x/7e/bf/8a/7ebf8abbd18515eef18b9bd0536ac95f--werewolf-art-fantasy-creatures.jpg'
+#  Description:
+#    - '{tap:} Ready a nearby ally unit.'
+#  FlavourText:
+#    - Sometimes the adrenaline
+#    - just eeks out.
+#  Traits:
+#    - Wolf Warrior
+#  Cost: 4
+#  Range: 1
+#  Power: 3
+#
+#Woken Fire Tornado:
+#  Image: images/mtg/5.jpg
+#  Description:
+#    - '{tap:} Move nearby unit 1 square.'
+#    - ''
+#  FlavourText:
+#    - Little good goes through
+#    - "a fire tornado's thoughts."
+#  Traits:
+#    - Animation
+#  Cost: 6
+#  Range: 1
+#  Power: 3
+#
+#Salumite War Priest:
+#  Cost: 10
+#  Power: 6
+#  Range: 1
+#  Description: ''
+#  Image: 'http://uploads4.yugioh.com/card_images/5445/detail/Illusion_Ice_Sculpture.jpg?1440617804'
+#  Traits:
+#    - Warrior
+#    - Priest
+#
+#Reckless Barbarian:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: 'https://s-media-cache-ak0.pinimg.com/736x/56/3e/ec/563eec6c09d35cdc9cb5b60f623e3a03.jpg'
+#  Description:
+#    - Starts play refreshed. Destroyed end of turn.
+#  Traits:
+#    - Warrior
+#
+#Ginger Cat:
+#  Cost: 3
+#  Power: 2
+#  Range: 1
+#  Image: images/catart/Gingercat.jpg
+#  Description: "<b>{tap:}</b> Move one square."
+#  FlavourText: "Meow."
+#  Traits: [Cat]
+#  AIValue: 1500
+#
+#Core Channeler:
+#  Cost: 4
+#  Power: 2
+#  Range: 1
+#  Description: '<b>While near Core:</b> Whenever a 3+ Power enemy attacks, draw a card.'
+#  Image: 'http://uploads4.yugioh.com/card_images/5445/detail/Illusion_Ice_Sculpture.jpg?1440617804'
+#  Traits:
+#    - Warrior
+#    - Priest
+#

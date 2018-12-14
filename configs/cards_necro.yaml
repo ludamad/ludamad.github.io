@@ -1,0 +1,19 @@
+#Larent Elite:
+#  Cost: 4
+#  Power: 3
+#  Range: 1
+#  Image: 'https://cdna.artstation.com/p/assets/images/images/000/935/898/large/frej-agelii-brumble-the-miner-frej-agelii.jpg?1436470553'
+#  FlavourText: "The surface? Not in years."
+#  Traits: [Adventurer]
+#  AIValue: 3000
+#
+
+Soul Reaper:
+  Cost: 4
+  Power: 2
+  Range: 2
+  Image: images/undead/cardreaper.png
+  Description:
+    - Whenever a unit within {2RNG} dies, gain {1GP}.
+    - <b>Death:</b> Lose as much Gold as this card gained.
+

@@ -1,0 +1,65 @@
+Clara of Cats:
+  Cost: 0
+  Image: "images/animals/ClaraOfCats.jpg"
+  Description:
+    - "<b>Turn:</b> Gets a Kitty Squire."
+    - "<i>Beware my herd of cats.</i>"
+  Traits: [Lord, Adventurer, Animal]
+
+Ginger Cat:
+  Cost: 3
+  Power: 2
+  Range: 1
+  Image: images/catart/Gingercat.jpg
+  Description: ""
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 2500
+
+Wing Cat:
+  Cost: 3
+  Power: 2
+  Range: 2
+  Image: images/catart/wingcat.jpg
+  Description: "{Flight}"
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 2500
+
+Magic Cat:
+  Cost: 3
+  Power: 2
+  Range: 1
+  Image: images/catart/magiccat2.jpg
+  Description: "<b>{tap:}</b> Gain 2 Fame."
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 2500
+
+Kitty Squire:
+  Cost: 1
+  Power: 1
+  Range: 1
+  AIValue: 1000
+  Traits: [Animal]
+  Image: images/animals/kitty-knight.jpg
+
+Support Cat:
+  Cost: 6
+  Power: 2
+  Range: 1
+  Image: "https://i.pinimg.com/236x/a4/ff/d5/a4ffd5d9b5f1d0941ff67b5f104e3f7e--art-original-original-paintings.jpg"
+  Description: "<b>Play:</b> Nearby allies gain 2 Power until end of turn."
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 2000
+
+Hannah the Balancer:
+  Cost: 5
+  Power: 2
+  Range: 1
+  Image: images/catart/magiccat.jpg
+  Description: "<b>Play:</b> Nearby enemies lose 1 Power."
+  FlavourText: "Meow."
+  Traits: [Animal]
+  AIValue: 2000

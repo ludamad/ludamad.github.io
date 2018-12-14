@@ -1,0 +1,81 @@
+Deepfolk Scout:
+  Cost: 4
+  Power: 2
+  Range: 1
+  Image: images/miners/deepfolk2.png
+  Description: "<b>Play:</b> Draw a card."
+  Traits: [Dweller]
+  AIValue: 2000
+
+Kobold Squad Commander:
+    Cost: 0
+    Image: images/kobolds/leader.png
+    AIValue: 0 # Extra value sitting in hand
+    Description:
+      - <b>Draws 2 cards every turn.</b>
+      - <i> Surfacers, this deep? </i>
+    Traits: [Lord, Dweller]
+
+Dragon Path Kobold:
+  Cost: 7
+  Power: 3
+  Range: 2
+  AIValue: 3000
+  Traits: [Dweller]
+  Description:
+    - "<b>Flight.</b>"
+    - "<b>Play:</b> Alies within {2RNG} gain 1 Power. Enemies lose 1 instead!"
+  Image: https://i.pinimg.com/originals/06/4d/df/064ddfba16883a52f860a1405b85df74.jpg
+
+Curious Kobolds:
+    Cost: 0
+    Image: images/kobolds/curious.png
+    AIValue: 0 # Extra value sitting in hand
+    Description: <i> Be gone light bringers! </i>
+    Traits: [Lord, Dweller]
+
+Ratman Picker:
+  Cost: 4
+  Power: 2
+  Range: 1
+  AIValue: 1000
+  Traits: [Dweller]
+  Description: "<b>Attack:</b> Gains 1 Victory Point."
+  Image: https://cg1.cgsociety.org/uploads/images/medium/rogrus-another-view-of-ratm-1-aef59486-eion.jpg
+
+Red Dragon:
+  Cost: 7
+  Power: 3
+  Range: 3
+  AIValue: 6000
+  Traits: [Dweller]
+  Description:
+#    - "<b>Play:</b> Enemies within"
+#    - "{3RNG} lose 1 Power."
+    - "<b>Flight</b>. Also damages other enemies in path to target."
+
+  Image: https://i.pinimg.com/originals/bc/98/5b/bc985bfa680e194ef26c15b50422d0c1.jpg
+
+Kobold Picker:
+  Cost: 1
+  Power: 1
+  Range: 1
+  AIValue: 1000
+  Traits: [Dweller]
+  Image: https://i.pinimg.com/236x/90/6c/87/906c87cb70e186260843aea438287a3b--character-ideas-character-art.jpg
+
+Kobold Excavator:
+  Cost: 3
+  Power: 2
+  Range: 1
+  AIValue: 2000
+  Traits: [Dweller]
+  Image: "https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/6/66/Kobold_Digger_TCG.jpg"
+
+Veteran Kabouter:
+  Cost: 5
+  Power: 3
+  Range: 1
+  AIValue: 3000
+  Traits: [Dweller]
+  Image: "images/kobolds/smug.png"

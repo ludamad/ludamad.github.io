@@ -1,0 +1,22 @@
+players:
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: [Conscript, Conscript]
+    actionPruneLevel: 0
+    qSearchDepth: 0
+    targetVictoryPoints: 5
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: [Burly Miner, Burly Miner]
+    actionPruneLevel: 0
+    qSearchDepth: 0
+    targetVictoryPoints: 5
+board:
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "Core", "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+openInformation: false

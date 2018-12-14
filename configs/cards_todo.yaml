@@ -1,0 +1,40 @@
+# Cards with TODO implementation
+
+# TODO - UI
+Divine Nudge:
+  Cost: 3
+  AIValue: 1000
+  Image: images/mtg/11.jpg
+  Description:
+    - 'Move an enemy {1RNG}.'
+  FlavourText:
+    - 'Pray, though the gods provide only a path.'
+  Traits: [Spell]
+
+Gemologist:
+  Cost: 4
+  Power: 2
+  Range: 1
+  Image: images/miners/gemologist.jpg
+  Description: "When you attack the Core, gain 1 Gold."
+  Traits: [Dweller]
+  AIValue: 3000
+
+Trumpeer the Strong:
+  Cost: 4
+  Power: 2
+  Range: 1
+  Image: images/miners/dwarf2.jpeg
+  Description: "Deals 2 more damage to enemies."
+  Traits: [Dweller]
+  AIValue: 3000
+
+Crusher:
+  Cost: 5
+  Power: 3
+  Range: 1
+  Image: https://i.pinimg.com/236x/23/52/a0/2352a0609a4b5f0f3a3fd40be6b701c8--steampunk-robots-steampunk-airship.jpg
+  FlavourText: ""
+  Description: "+1 Power on your turn."
+  Traits: [Machine]
+  AIValue: 3500

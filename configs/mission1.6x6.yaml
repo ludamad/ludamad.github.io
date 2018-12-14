@@ -1,0 +1,52 @@
+players:
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: # Starter 15 card deck
+      - Conscript
+      - Conscript
+      - Burly Miner
+      - Burly Miner
+#      - Larent Elite
+#      - Larent Elite
+      - Core Pieces
+      - Core Pieces
+#      - Advanced Simulation
+#      - Advanced Simulation
+#      - Gigagus the Vengeful
+#      - Flamey Puff
+#      - Flamey Puff
+#      - Burly Miner
+#      - Burly Miner
+#      - Divine Nudge
+#      - Divine Nudge
+    actionPruneLevel: 0
+    qSearchDepth: 2
+    targetVictoryPoints: 20
+  - type: alphabeta
+    depth: 1
+    lordCard: Curious Kobolds
+    deck:
+      - Kobold Picker
+      - Kobold Picker
+      - Kobold Excavator
+      - Kobold Excavator
+      - Kobold Picker
+      - Kobold Picker
+      - Kobold Excavator
+      - Kobold Excavator
+      - Flamey Puff
+      - Flamey Puff
+      - Dragon Path Kobold
+      - Dragon Path Kobold
+    actionPruneLevel: 0
+    qSearchDepth: 2
+    targetVictoryPoints: 20
+board:
+  - ["", "",     "",     "", "", ""]
+  - ["", "",     "",     "", "", ""]
+  - ["", "", "Core", "Core", "", ""]
+  - ["", "", "Core", "Core", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+openInformation: false

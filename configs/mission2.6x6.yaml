@@ -1,0 +1,37 @@
+players:
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: [] # Requires external definition
+    actionPruneLevel: 0
+    qSearchDepth: 2
+    targetVictoryPoints: 20
+  - type: alphabeta
+    depth: 1
+    lordCard: Kobold Squad Commander
+    deck:
+      - Kobold Picker
+      - Kobold Picker
+      - Kobold Picker
+      - Kobold Picker
+      - Kobold Excavator
+      - Kobold Excavator
+      - Veteran Kabouter
+      - Veteran Kabouter
+      - Flamey Puff
+      - Flamey Puff
+      - Fleeting Fame
+      - Fleeting Fame
+      - Dragon Path Kobold
+      - Dragon Path Kobold
+    actionPruneLevel: 0
+    qSearchDepth: 2
+    targetVictoryPoints: 20
+board:
+  - ["", "",     "",     "", "", ""]
+  - ["", "",     "",     "", "", ""]
+  - ["", "", "Core", "Core", "", ""]
+  - ["", "", "Core", "Core", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+  - ["", "",     "",     "", "" ,""]
+openInformation: false

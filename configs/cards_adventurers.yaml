@@ -1,0 +1,70 @@
+Captain Lordbeard:
+  Cost: 0
+  Image: "images/lordbeard.png"
+  Description:
+    - '<i>Our noble anti-hero.</i>'
+  Traits: [Lord, Adventurer]
+
+Bossman Grag:
+  Cost: 0
+  Image: "images/cartboss.png"
+  Description:
+    - "<i>The fun-loving foreman. Note: Be scared of fun.</i>"
+  Traits: [Lord, Adventurer]
+
+Parxeer the Loyal:
+  Cost: 4
+  Power: 2
+  Range: 1
+  Image: images/miners/dwarf.jpg
+  Description: "<b>Play:</b> A random nearby ally gets +1 Power. "
+  Traits: [Adventurer]
+  AIValue: 2000
+
+Larent Elite:
+  Cost: 4
+  Power: 3
+  Range: 1
+  Image: 'https://cdna.artstation.com/p/assets/images/images/000/935/898/large/frej-agelii-brumble-the-miner-frej-agelii.jpg?1436470553'
+  FlavourText: "The surface? Not in years."
+  Traits: [Adventurer]
+  AIValue: 3000
+
+Simple Farmer:
+  Cost: 0
+  Power: 1
+  Range: 1
+  Image: 'https://d3d00swyhr67nd.cloudfront.net/w944h944/EDI/EDI_CITY_CAC_240_1964.jpg'
+  Description: ''
+  Traits: [Adventurer]
+  AIValue: 1000
+
+Conscript:
+  Cost: 0
+  Power: 1
+  Range: 1
+  Image: 'images/miners/miner.png'
+  Description: ''
+  FlavourText: "Here for duty."
+  Traits: [Adventurer]
+  AIValue: 1000
+
+Burly Miner:
+  Cost: 2
+  Power: 2
+  Range: 1
+  Image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/coal-miner-19th-century-granger.jpg'
+  FlavourText: "My business is mining."
+  Traits: [Adventurer]
+  AIValue: 2000
+
+Larent General:
+  Cost: 4
+  Power: 3
+  Range: 1
+  Image: 'https://i.pinimg.com/originals/a4/e9/4b/a4e94bee4693491db08746bfeef3a1d2.jpg'
+  FlavourText: ""
+  Traits: [Adventurer]
+  AIValue: 3000
+
+

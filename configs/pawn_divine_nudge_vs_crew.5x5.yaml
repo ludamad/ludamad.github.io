@@ -1,0 +1,22 @@
+players:
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    deck: [Conscript, Conscript, Conscript, Divine Nudge, Divine Nudge]
+    actionPruneLevel: 0
+    qSearchDepth: 2
+    targetVictoryPoints: 8
+  - type: alphabeta
+    depth: 1
+    lordCard: Bossman Grag
+    qSearchDepth: 2
+    deck: [Conscript, Burly Miner, Burly Miner]
+    actionPruneLevel: 0
+    targetVictoryPoints: 8
+board:
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "Core", "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+openInformation: false

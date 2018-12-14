@@ -1,0 +1,43 @@
+# Generically applicable spells
+
+Advanced Simulation:
+    Cost: 2
+    Image: images/ciri-simulation.png
+    AIValue: 0 # Extra value sitting in hand
+    Traits:
+        - Spell
+    Description:
+        - 'Draw 2 cards.'
+
+Core Pieces:
+  Cost: 1
+  Range: 1
+  Image: 'https://i.pinimg.com/originals/00/b7/0b/00b70b4f03534829f88121d1ab514ed8.jpg'
+  Description: "Gain 1 Victory Point. Draw a card."
+  FlavourText: ""
+  Traits: [Spell]
+  AIValue: 500
+
+Fleeting Fame:
+  Cost: 0
+  Range: 1
+  Image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkLVp5lgWcbSM0twPp0G0wttj5oK-ZraZuPQhR75MGbcJXI8A'
+  Description: "Gain 1 Fame. <i>(Fame can pay for cards, but resets each turn!)</i>"
+  FlavourText: ""
+  Traits: [Spell]
+  AIValue: 500
+
+Flamey Puff:
+  Image: images/unauthorized/fireball.jpg
+  AIValue: 2000
+  Description:
+    - 'Deal 2 damage to an enemy.'
+  Traits: [Spell]
+  Cost: 2
+
+Cave-in:
+  Cost: 6
+  Image: 'images/miners/cavein.png'
+  Description: "Destroy all units."
+  Traits: [Spell]
+  AIValue: 3000
