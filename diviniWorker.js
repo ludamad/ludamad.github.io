@@ -1,14 +1,16 @@
 importScripts('divinibot.js');
 importScripts('comlink.js');
 let AI = Module;
-AI.initGameData();
 let initialMark;
 
-
 class Engine {
-    startGame(gameFile, deck) {
+    startGameYaml(yamlMissionSource) {
         AI.resetStateFromHistoryMark(initialMark);
-        AI.initGameWithDeck(gameFile, deck);
+        AI.initGameYaml(yamlMissionSource);
+    }
+    startGameJson(jsonMissionSource) {
+        AI.resetStateFromHistoryMark(initialMark);
+        AI.initGameYaml(jsonMissionSource);
     }
     getStateHistoryMark() {
         return AI.getStateHistoryMark();
@@ -19,8 +21,8 @@ class Engine {
     resetStateFromHistoryMark(mark) {
         return AI.resetStateFromHistoryMark(mark);
     }
-    initGameData(){
-        AI.initGameData();
+    initGameData(yamlCardSource){
+        AI.initGameData(yamlCardSource);
         initialMark = AI.getStateHistoryMark();
     }
     getStateJson(){
