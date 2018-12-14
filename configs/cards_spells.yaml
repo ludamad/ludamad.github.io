@@ -13,7 +13,7 @@ Core Pieces:
   Cost: 1
   Range: 1
   Image: 'https://i.pinimg.com/originals/00/b7/0b/00b70b4f03534829f88121d1ab514ed8.jpg'
-  Description: "Gain 1 Victory Point. Draw a card."
+  Description: "Gain 2 Victory Points. Draw a card."
   FlavourText: ""
   Traits: [Spell]
   AIValue: 500

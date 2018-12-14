@@ -22,6 +22,7 @@ class Engine {
         return AI.resetStateFromHistoryMark(mark);
     }
     initGameData(yamlCardSource){
+        console.log("WORKER GOT " + yamlCardSource)
         AI.initGameData(yamlCardSource);
         initialMark = AI.getStateHistoryMark();
     }
