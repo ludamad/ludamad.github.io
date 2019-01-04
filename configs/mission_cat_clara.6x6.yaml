@@ -1,13 +1,15 @@
 players:
-  - type: alphabeta
+  - type: action_ab
     depth: 1
+    maxEvaluatedNodes: 10000
     lordCard: Bossman Grag
     deck: []
     actionPruneLevel: 0
     targetVictoryPoints: 20
     qSearchDepth: 2
-  - type: alphabeta
+  - type: action_ab
     depth: 1
+    maxEvaluatedNodes: 10000
     lordCard: Clara of Cats
     deck:
       - Ginger Cat

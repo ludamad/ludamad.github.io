@@ -1,19 +1,207 @@
-#Larent Elite:
-#  Cost: 4
-#  Power: 3
-#  Range: 1
-#  Image: 'https://cdna.artstation.com/p/assets/images/images/000/935/898/large/frej-agelii-brumble-the-miner-frej-agelii.jpg?1436470553'
-#  FlavourText: "The surface? Not in years."
-#  Traits: [Adventurer]
-#  AIValue: 3000
-#
+
+King Blightspawn:
+  Cost: 0
+  Image: "https://blight.ironhelmet.com/images/press/bosses/goblin_zombie_boss.jpg"
+  Description:
+    - "<i>Leader of undead - a surprisingly vacant position.</i>"
+  Traits: [Lord, Undead]
+
+Lord Unconcubine:
+  Cost: 6
+  Power: 2
+  Range: 1
+  AIValue: 4000
+  Image: "images/undead/unconcubine.png"
+  Description:
+    - "The first time an ally dies each turn, summon a 1/1 Skeleton in its place."
+  Traits: [Undead]
+
+Eternal Eddy:
+  Cost: 1
+  Power: 1
+  Range: 1
+  AIValue: 1000
+  Image: "https://66.media.tumblr.com/19df0de04dfcb60f6cf7fba89a9a39ec/tumblr_ov7o657r5v1tibuboo1_1280.jpg"
+  Description: If discarded, instead summon this near the Core {dice}.
+  Traits: [Undead]
 
 Soul Reaper:
-  Cost: 4
-  Power: 2
+  Cost: 1
+  Power: 1
   Range: 2
+  AIValue: 3000
   Image: images/undead/cardreaper.png
   Description:
-    - Whenever a unit within {2RNG} dies, gain {1GP}.
-    - <b>Death:</b> Lose as much Gold as this card gained.
+    - "{tap:} Draw a card. Discard your lowest Cost card {dice}."
+  Traits: [Undead]
 
+Lazy Lich:
+  Cost: 3
+  Power: 2
+  Range: 1
+  AIValue: 2500
+  Image: http://www.dndadventure.com/wp-content/uploads/2017/03/lich-2.jpg
+  Description:
+    - "<b>Death:</b> Shuffle back 2 discarded cards if possible. If you do, resummon this."
+  Traits: [Undead]
+
+Zombie Monstrosity:
+  Cost: 1
+  Power: 1
+  Range: 1
+  AIValue: 1000
+  Image: https://i.pinimg.com/originals/68/a1/9c/68a19c2c81c3ff5d02602cea2ac117e9.jpg
+  Description:
+    - "<b>Play:</b> Ready this."
+    - "<b>Turn:</b> Destroy this."
+  Traits: [Undead]
+
+Succulent Sam:
+  Cost: 3
+  Power: 2
+  Range: 1
+  AIValue: 3000
+  Image: https://i.pinimg.com/564x/8e/ce/c0/8ecec0b0b2c03fdb78b21a8f6e29fd54.jpg
+  Description:
+    - "<b>Death:</b> Nearby enemy {dice} loses 1 Power."
+  Traits: [Undead]
+
+Unfortunate Accident:
+  Cost: 1
+  AIValue: 1000
+  Image: https://orig00.deviantart.net/2a5f/f/2007/192/8/f/sacrifice_by_njoo.jpg
+  Description:
+    - "Sacrifice an ally: Destroy a nearby enemy {dice}."
+  Traits: [Spell]
+
+Unconcubine:
+  Cost: 6
+  Power: 2
+  Range: 1
+  AIValue: 4000
+  Image: "images/undead/unconcubine.png"
+  Description:
+    - "The first time an ally dies each turn, summon a 1/1 Skeleton in its place."
+  Traits: [Undead]
+
+Skeleton:
+  Cost: 0
+  Power: 1
+  Range: 1
+  AIValue: 1000
+  Image: "https://i.pinimg.com/originals/90/72/7d/90727d85eb2aac4ced3528f922d340d8.jpg"
+  Description: "<i>Summoned.</i>"
+  Traits: [Undead]
+
+Rabid Zombie:
+  Cost: 5
+  Power: 2
+  Range: 1
+  AIValue: 3000
+  Image: "images/undead/rabidzombie.png"
+  Description:
+    - "When this kills an enemy, summon a Rabid Zombie on their square."
+  Traits: [Undead]
+
+Bone Engine:
+  Cost: 4
+  AIValue: 1000
+  Image: "https://www.diablowiki.net/images/5/51/Gore-wagon1.jpg"
+  Description:
+    - "Shuffle back 2 discarded cards as an additional cost."
+    - "Ready an ally."
+  Traits: [Spell]
+
+Bloated Blobber:
+  Cost: 4
+  Power: 2
+  Range: 1
+  AIValue: 2000
+  Image: 'https://i.pinimg.com/736x/4d/8f/f0/4d8ff0264ad70fd22667730d27d47566--monster-art-digital-illustration.jpg'
+  Traits:
+    - Undead
+  Description:
+    - '<b>Death:</b> Destroy a nearby enemy {dice}.'
+
+Crypt Keeper:
+  Cost: 6
+  Power: 2
+  Range: 2
+  AIValue: 4000
+  Image: 'http://68.media.tumblr.com/b9d0616c244f4ae09e97b68328510b00/tumblr_mm835jevu41rrsweio1_1280.jpg'
+  Description:
+    - "<b>Kill:</b> If first kill of turn, Ready this."
+  Traits:
+    - Undead
+
+Grave Digger:
+  Cost: 3
+  Power: 2
+  Range: 1
+  Image: 'https://img00.deviantart.net/ab57/i/2013/307/0/0/gravedigger_jax__for_the_lol_harrowing_contest__by_defexx-d6suxrq.jpg'
+  Traits:
+    - Undead
+  AIValue: 3000
+  Description:
+    - "<b>{tap}, {2GP}:</b> Shuffle back a discarded card to summon a 1/1 Skeleton."
+
+Cyclops Skeleton:
+  Cost: 4
+  Power: 3
+  Range: 1
+  AIValue: 3000
+  Image: 'images/undead/cyclopsskeleton.png'
+  Traits:
+    - Undead
+  Description: "<i>Summoned.</i>"
+
+Cursed Cyclops:
+  Cost: 7
+  Power: 3
+  Range: 1
+  AIValue: 5000
+  Image: 'images/undead/cyclops.png'
+  Traits:
+    - Dweller
+  Description:
+    - 'Allies summoned from effects get +1 Power.'
+    - '<b>Death:</b> Summon a Cylops Skeleton here.'
+
+Den of Shadows:
+  Cost: 5
+  AIValue: 1000
+  Image: https://artfiles.alphacoders.com/758/75847.jpg
+  Description:
+    - 'Give all allies +1 Power. Discard from your deck for each ally.'
+  Traits: [Spell]
+
+Evil Words:
+  Cost: 6
+  AIValue: 1000
+  Image: "https://gamingmage.files.wordpress.com/2012/06/absorb-blast.jpg"
+  Description:
+    - 'Give all enemies -1 Power. Discard from your deck for each enemy.'
+  Traits: [Spell]
+
+Raise Dead:
+  Cost: 4
+  AIValue: 1000
+  Image: "https://images-cdn.fantasyflightgames.com/filer_public/81/06/810691b6-8733-41a7-8f38-48be444178a7/bt08_raisedead.jpg"
+  Description: Summon your highest Cost {dice} ally from your discard pile.
+  Traits: [Spell]
+
+Decay:
+  Cost: 4
+  AIValue: 1000
+  Image: https://i.ytimg.com/vi/ZIOfjO8Vr7s/maxresdefault.jpg
+  Description:
+    - "An enemy loses 3 Power."
+  Traits: [Spell]
+
+Curse:
+  Cost: 2
+  AIValue: 1000
+  Image: "https://pbs.twimg.com/media/DTnkt2hWAAElvO4.jpg"
+  Description:
+    - "An enemy loses 2 Power."
+  Traits: [Spell]

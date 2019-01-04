@@ -1,6 +1,9 @@
 # Cards with TODO implementation
 
-# TODO - UI
+# Bravery:
+#   Image: "https://pbs.twimg.com/media/DS0aMxPXUAMtSse.jpg:large"
+
+# TODO - UI - might work, try it?
 Divine Nudge:
   Cost: 3
   AIValue: 1000

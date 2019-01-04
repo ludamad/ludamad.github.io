@@ -17,7 +17,7 @@ Parxeer the Loyal:
   Power: 2
   Range: 1
   Image: images/miners/dwarf.jpg
-  Description: "<b>Play:</b> A random nearby ally gets +1 Power. "
+  Description: "<b>Play:</b> Nearby ally {dice} gets +1 Power. "
   Traits: [Adventurer]
   AIValue: 2000
 
@@ -66,5 +66,4 @@ Larent General:
   FlavourText: ""
   Traits: [Adventurer]
   AIValue: 3000
-
 

@@ -82,21 +82,6 @@ Explosives Expert:
 #
 #
 
-Taro:
-  Cost: 2
-  Power: 2
-  Range: 1
-  Description: ""
-  AIValue: 2000
-  Traits: [Cat]
-
-Core:
-  Image: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/239120/4e4bfbf72cc22ba7bb1f48ee4fea293777e15854.jpg"
-  Power: 0
-  Traits: [Building]
-  AIValue: 0
-  Description:
-    - "Attack this for victory points!"
 
 #
 #Inner Panther:
@@ -200,7 +185,7 @@ Gigagus the Vengeful:
 #  Traits:
 #    - Animation
 #  Description:
-#    - '<b>Pay {2GP}:</b> Refresh this unit.'
+#    - '<b>Pay {2GP}:</b> Ready this unit.'
 #  FlavourText:
 #    - She works to rule. Just imagine.
 #
@@ -315,7 +300,7 @@ Gigagus the Vengeful:
 #    Traits:
 #        - Ciribot
 #    Description:
-#        - "{tap:} Discard this to play a unit on its square (pay its cost). The unit starts refreshed. Then, draw a card."
+#        - "{tap:} Discard this to play a unit on its square (pay its cost). The unit starts Ready. Then, draw a card."
 #Dark Cubist:
 #    Cost: 6
 #    Power: 2
@@ -440,7 +425,7 @@ Gigagus the Vengeful:
 #  Range: 1
 #  Image: 'https://s-media-cache-ak0.pinimg.com/736x/56/3e/ec/563eec6c09d35cdc9cb5b60f623e3a03.jpg'
 #  Description:
-#    - Starts play refreshed. Destroyed end of turn.
+#    - Starts play Ready. Destroyed end of turn.
 #  Traits:
 #    - Warrior
 #
