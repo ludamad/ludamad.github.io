@@ -99,7 +99,7 @@ html {
                                     supported by Chrome and Opera */
 }
 .playerhandcard:hover {
-    z-index: 9999;
+    z-index: 95;
 }
 
 
@@ -177,7 +177,7 @@ html {
 
 
 #handcardcontainer:hover {
-    z-index: 400;
+    z-index: 95;
     transform: scale(1.5,1.5);
 }
 
