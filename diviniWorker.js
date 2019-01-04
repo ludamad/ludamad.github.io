@@ -1,4 +1,4 @@
-importScripts('divinibot.js');
+importScripts('divinibot2.js');
 importScripts('comlink.js');
 let AI = Module;
 let initialMark;
