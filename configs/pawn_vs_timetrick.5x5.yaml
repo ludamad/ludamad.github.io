@@ -1,0 +1,24 @@
+players:
+  - type: action_ab
+    depth: 1
+    lordCard: Bossman Grag
+    maxEvaluatedNodes: 10000
+    deck: [Conscript, Conscript, Whirlport, Whirlport, Timetrick, Timetrick]
+    actionPruneLevel: 0
+    qSearchDepth: 0
+    targetVictoryPoints: 5
+  - type: action_ab
+    depth: 1
+    lordCard: Bossman Grag
+    maxEvaluatedNodes: 10000
+    deck: [Burly Miner, Burly Miner, Whirlport, Whirlport, Timetrick, Timetrick]
+    actionPruneLevel: 0
+    qSearchDepth: 0
+    targetVictoryPoints: 5
+board:
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "Core", "" ,""]
+  - ["", "", "",     "" ,""]
+  - ["", "", "",     "" ,""]
+openInformation: false

@@ -1,0 +1,235 @@
+Jolly Mechanic:
+  Cost: 1
+  Power: 2
+  Movement: 2
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/tinkerer-Felicia_Cano-1.jpg
+  Description: "{Passive}"
+  AIValue: 1500
+Drillbot:
+  Cost: 6
+  Power: 2
+  Movement: 1
+  Range: 1
+  Traits:
+    - Robot
+  Image: 'https://vignette2.wikia.nocookie.net/yugioh/images/1/1f/SuperVehicroidJumboDrill-DAR.png/revision/latest?cb=20141106162558'
+  Description:
+    - When placed, deal 1 damage to nearby enemies.
+    - '{tap:} Place this again.'
+  AIValue: 4000
+  # FlavourText:
+  #   - "\"Miraculously, it didn't rampage against us.\""
+Creative Metal:
+  Cost: 3
+  Power: 1
+  Range: 1
+  Traits: [Robot, Tinkerer]
+  Image: images/2ndgenbot.png
+  Description:
+    - '<b>{tap}, {1GP}:</b> Draw a Robot.'
+  # FlavourText:
+  #   - Adept and passionate in
+  #   - his work.
+
+Whirlport:
+ Cost: 0
+ Image: 'https://cdnb.artstation.com/p/assets/images/images/007/060/219/large/stas-yurev-21-08-17-dsn-rosatomtable-01-1920px.jpg?1503390038'
+ Description: "Place an ally again. Exhaust it."
+ Traits: [Spell]
+
+Science Ship:
+  Cost: 4
+  Power: 2
+  Range: 1
+  Image: "https://i.pinimg.com/736x/e3/d2/75/e3d275e61d67ed23e7cd3617d2847d7b.jpg"
+  Description:
+    - 'When placed, draw a Robot.'
+  Traits: [Robot]
+
+Cyber Warrior:
+  Cost: 3
+  Power: 2
+  Movement: 2
+  Range: 1
+  Traits:
+    - Robot
+  Image: images/robots/cyborg.jpg
+  Description:
+    - 'When placed near an enemy, gain +1 Power.'
+  # FlavourText:
+  #   - Greatly enjoys image based cat jokes.
+Exploding Debris:
+  Cost: 5
+  Traits:
+    - Spell
+  Image: images/mtg/23.jpg
+  Description:
+    - "{Raze}"
+    - "Deal 2 damage to an enemy, and enemies near it. "
+  # FlavourText:
+  #   - Not all successes fulfill their intended purpose.
+Destructobot:
+  Cost: 6
+  Power: 2
+  Movement: 2
+  Range: 2
+  Traits:
+    - Robot
+  Image: images/robots/rare1.jpg
+  Description:
+    - 'Does not ready at start of turn. When an ally is placed nearby, ready this.'
+  # FlavourText:
+  #   - Exists to see death.
+Electric Mallet:
+  Cost: 1
+  Image: 'https://hearthstone.gamepedia.com/media/hearthstone.gamepedia.com/thumb/0/03/Powermace_%28Devout_Aurastone_Hammer%29.png/500px-Powermace_%28Devout_Aurastone_Hammer%29.png?version=32b20a092caa1de4b32ec61876ff06df'
+  Traits:
+    - Equip
+  Miracle: 1
+  Description:
+    - 'Ready ally gets +2 Power and becomes exhausted.'
+  # FlavourText:
+  #   - "It's important to configure the voltage."
+Flamey Puffs:
+  Cost: 3
+  Image: 'https://i.pinimg.com/736x/68/2f/34/682f3449ef41add6c2bb894094709518--concept-weapons-cannon.jpg'
+  Traits:
+    - Spell
+  Miracle: 6
+  Description:
+    - 'Deal 3 damage to an enemy within {2RNG} of an ally.'
+  # FlavourText:
+  #   - Flamey puffs set things on fire. Whole things.
+Laser:
+  Cost: 1
+  Image: 'https://cdn.allwallpaper.in/wallpapers/1920x1200/5951/star-wars-fantasy-lightsabers-art-1920x1200-wallpaper.jpg'
+  Traits:
+    - Equip
+  Miracle: 4
+  Description:
+    - Ready ally gains {1RNG} and becomes exhausted.
+  # FlavourText:
+  #   - Pew pew.
+Nikleflik the Whirlporter:
+  Cost: 5
+  Miracle: 4
+  Power: 3
+  Movement: 3
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/niklelfik.jpg
+  Description:
+    - '<b>Death:</b> Add a Whirlport to your hand.'
+  # FlavourText:
+  #   - Founder of whirlportation.
+Old Slick:
+  Cost: 2
+  Power: 2
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/slickoldytinkerer.jpg
+  Description: ''
+    # - '<b>{tap} in center and pay {3MP}:</b> Add a Robot from your deck to your hand. <i><small>(Shuffle afterwards)</small></i>'
+  # FlavourText:
+  #   - Always knows a good trick.
+Timetrick:
+  AIValue: 1000
+  Cost: 1
+  Image: https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/e/ec/Timepiece_of_Horror_full.jpg/445px-Timepiece_of_Horror_full.jpg?version=9ea6cb3efce89e3436fe62027462b84f
+  Description: "Return an ally to your hand. Gain Fame equal to its Cost."
+  Traits: [Spell]
+Overgrowth Bot:
+  Cost: 3
+  Miracle: 0
+  Power: 2
+  Movement: 2
+  Range: 1
+  Traits:
+    - Robot
+  Image: images/robots/overgrowth-robot.jpg
+  Description:
+    # - "{Raze}"
+    - "When an ally is placed nearby, gain 1 Power this turn."
+Thinkbot:
+  Cost: 3
+  Miracle: 1
+  Power: 3
+  Movement: 2
+  Range: 1
+  Traits:
+    - Robot
+  Image: images/robots/pouty.jpg
+  Description:
+    - "{Passive}"
+    - "When placed, draw a card."
+  # FlavourText:
+  #   - Contagiously mopey.
+Scouting Probe:
+  Cost: 2
+  Miracle: 5
+  Power: 2
+  Movement: 4
+  Range: 0
+  Traits:
+    - Robot
+  Image: 'https://static1.squarespace.com/static/4f209325d09a4f024c85b060/5117e392e4b0c59967aba700/55d8f58fe4b0e4c428782393/1521509599243/'
+  Description:
+    - "When placed, choose a card from your deck's top 3. The others go to the bottom."
+  # FlavourText:
+  #   - Every plan needs speed.
+Tinkerer Toot:
+  Cost: 2
+  Power: 1
+  Movement: 3
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/tinkerer2.jpg
+  Description:
+    - "When placed, nearby enemy </br> {dice} can't attack next turn."
+  # FlavourText:
+  #   - A cheerful chap.
+Turtlebot:
+  Cost: 2
+  Miracle: 0
+  Power: 4
+  Movement: 1
+  Range: 0
+  Traits:
+    - Robot
+  Image: images/robots/turtlebot.jpg
+  Description:
+    - 'Taunt.' #'{Defender}.'
+    - '<b>Death:</b> Draw a card.'
+  # FlavourText:
+  #   - '"Solid work from an intern." - <b>Nikleflik</b>'
+'Tyroflik, Robot Pilot':
+  Cost: 6
+  Power: 3
+  Movement: 2
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/tyroflik.jpg
+  Description:
+    - 'When this is placed, gain {2MP}.'
+  # FlavourText:
+  #   - 'Piloting has its risks, but for some its life.'
+"Ol' Glass Eye":
+  Cost: 1
+  Miracle: 0
+  Power: 1
+  Range: 1
+  Traits:
+    - Tinkerer
+  Image: images/robots/uglytinkerer.jpg
+  Description:
+    - '<b>{tap}</b>: Gain {1MP}.'
+  # FlavourText:
+  #   - '"Kept to himself. In 20 years, never'
+  #   - 'really knew him." <b>- Mine boss</b>'

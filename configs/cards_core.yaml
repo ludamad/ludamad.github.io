@@ -1,0 +1,7 @@
+Core:
+  Image: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/239120/4e4bfbf72cc22ba7bb1f48ee4fea293777e15854.jpg"
+  Power: 0
+  Traits: [Building]
+  AIValue: 0
+  Description:
+    - "Attack this for victory points!"

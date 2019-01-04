@@ -1,0 +1,32 @@
+  
+Wrench of Electric Greatness:
+  Cost: 1
+  Image: 'https://hearthstone.gamepedia.com/media/hearthstone.gamepedia.com/thumb/8/82/Cogmaster%27s_Wrench_full.jpg/400px-Cogmaster%27s_Wrench_full.jpg?version=710e8157640d6fe7d0b37d68f0360715'
+  Traits:
+    - Equip
+  Description:
+    - '<b>Play on ready ally, {tap} it.</b>'
+    - '{tap} to Ready all nearby Robots.'
+  FlavourText:
+    - "Sometimes, it's the tools."
+
+Chrono Charge:
+  Cost: 1
+  Image: "images/shbattery.jpg"
+  Description:
+    - "Activate an ally's {tap} ability."
+  Traits: [Spell]
+
+Buckshotsman:
+  Cost: 6
+  Miracle: 0
+  Power: 3
+  Movement: 2
+  Range: 3
+  Traits:
+    - Tinkerer
+  Image: images/robots/suitgnome.jpg
+  Description: ''
+    # - '<b>{tap} and pay {2MP}:</b> Move a nearby Robot to another nearby square.'
+  # FlavourText:
+    # - Best to carry a gun for more dangerous tinkering.
